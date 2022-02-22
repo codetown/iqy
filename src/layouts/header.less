@@ -1,0 +1,190 @@
+.header {
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  z-index: 1;
+  height: 64px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:1200px;
+    height: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    .logo {
+      display: flex;
+      align-items: center;
+      padding-bottom: 4px;
+      img {
+        width: 40px;
+        height: 40px;
+        margin-right: 8px;
+      }
+      span {
+        font-size: 24px;
+        color: #fff;
+        font-style: italic;
+      }
+    }
+
+    .categories{
+      font: 12px/1.5 PingFangSC-Regular,Helvetica,Arial,Microsoft Yahei,sans-serif;
+      a{
+        margin: 0 12px;
+        font-size: 18px;
+        color: hsla(0,0%,93.3%,.88);
+      }
+      a:hover{
+        color:#16e067;
+        font-weight: 700;
+      }
+    }
+    .searchBar {
+      border-radius:4px;
+      overflow: hidden;
+      width:240px;
+      :global {
+        .ant-btn-primary {
+          background:transparent;
+          border:none;
+          width: 72px;
+
+          span {
+            height: 32px;
+            display: inline-block;
+            line-height:32px;
+            color:#16e067;
+          }
+        }
+
+        .ant-input-affix-wrapper {
+          border: none;
+          overflow: hidden;
+          border-color: transparent;
+          background-color: rgba(255, 255, 255, 0.2);
+          padding: 4px 16px;
+          font-size: 12px;
+        }
+        .ant-input-group-addon{
+          background-color: rgba(255, 255, 255, 0.2);
+        }
+        .ant-input-search-with-button {
+          overflow: hidden;
+        }
+
+        .ant-btn-lg {
+          padding-top: 5px;
+        }
+
+        .ant-input-search
+          > .ant-input-group
+          > .ant-input-group-addon:last-child {
+          left: 0;
+        }
+
+        .ant-input-group
+          > .ant-input-affix-wrapper:not(:last-child)
+          .ant-input {
+          border-color: transparent;
+          background-color: transparent;
+          font-size: 16px;
+          color: #fff;
+        }
+
+        input.ant-input.ant-input-lg::-webkit-input-placeholder {
+          color: #eee;
+          font-size: 16px;
+          line-height: 32px;
+        }
+      }
+    }
+
+    .actions {
+      width: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .vip {
+        width: 24px;
+        height: 24px;
+
+        img {
+          width:24px;
+          height: 24px;
+        }
+      }
+
+      .icon {
+        font-size:24px;
+        color: #fff;
+      }
+
+      .avatar {
+        width: 32px;
+        height: 32px;
+        border-radius: 16px;
+        overflow: hidden;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+// // Extra devices (landscape phones, 575px and down)
+// @media (max-width: 575px) {
+//   .header {
+//     background-color: rgba(0, 0, 0, 0.81) !important;
+//     padding-left: 16px;
+//     padding-right: 16px;
+//     .inner {
+//       .actions,
+//       .logo {
+//         display: none;
+//       }
+//     }
+//   }
+// }
+
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) {
+//   .header {
+//     .inner {
+//       width: 768px;
+//     }
+//   }
+// }
+
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) {
+//   .header {
+//     .inner {
+//       width: 992px;
+//     }
+//   }
+// }
+
+// // Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) {
+//   .header {
+//     .inner {
+//       width: 1200px;
+//     }
+//   }
+// }
+
+// // Extra large devices (large desktops, 1600px and up)
+// @media (min-width: 1600px) {
+//   .header {
+//     .inner {
+//       width: 1600px;
+//     }
+//   }
+// }

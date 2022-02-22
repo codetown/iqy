@@ -1,0 +1,90 @@
+.hotRank {
+  .rankHeader {
+    font-size: 30px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 16px;
+  }
+  div.rankItem:not(:last-child) {
+    padding-bottom: 20px;
+  }
+  div.rankItem {
+    display: flex;
+    a:nth-child(1) {
+      width: 128px;
+      height: 84px;
+      margin-right: 12px;
+      border-radius: 5px;
+      position: relative;
+      overflow: hidden;
+      font-size: 12px;
+      img {
+        width: 128px;
+        height: 84px;
+      }
+      em {
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        font-style: normal;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: #fff;
+        background: #0f0f1e;
+        opacity: 0.8;
+        border-bottom-right-radius: 5px;
+      }
+      span {
+        width: 128px;
+        position: absolute;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-bottom: 4px;
+        left: 0;
+        bottom: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: #fff;
+        background-image: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.3) 25.5%,
+          rgba(0, 0, 0, 0.08) 70%,
+          rgba(0, 0, 0, 0)
+        );
+      }
+    }
+    a:nth-child(2) {
+      width: 156px;
+      strong {
+        font-weight: 400;
+        display: block;
+        color: #111;
+        margin-bottom: 4px;
+      }
+      span {
+        color: #aaa;
+        display: block;
+        font-size: 13px;
+        -webkit-line-clamp: 2;
+        word-wrap: break-word;
+        display: -webkit-box;
+        overflow: hidden;
+        line-height: 18px;
+        height: 36px;
+        /*! autoprefixer: ignore next */
+        -webkit-box-orient: vertical;
+      }
+    }
+    a.top3 {
+      em {
+        color: #ff1459;
+        font-weight: 700;
+      }
+    }
+  }
+}

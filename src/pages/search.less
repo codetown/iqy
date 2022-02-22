@@ -1,0 +1,35 @@
+.headerBack {
+  padding-top: 64px;
+  background-color: #0f0f1e;
+}
+
+.searchList {
+  padding-bottom: 32px;
+}
+
+.title {
+  font-weight: 500;
+  margin-bottom: 24px;
+  font-size: 28px;
+  color: #999;
+}
+// Extra devices (landscape phones, 575px and down)
+@media (max-width: 575px) {
+  .headerBack {
+    margin-top: -17px;
+    padding-top: 2px;
+    background-color: #fff;
+  }
+  .title {
+    padding: 0 16px;
+  }
+  :global {
+    .ant-list {
+      padding: 0 16px;
+    }
+    .ant-row {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+  }
+}

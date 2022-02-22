@@ -1,0 +1,35 @@
+.searchBox {
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  a.imgContainer {
+    width: 40%;
+    display: block;
+    border-radius: 5px;
+    overflow: hidden;
+    img {
+      width: 100%;
+    }
+  }
+  a.txtContainer {
+    width: 56%;
+    display: block;
+    strong {
+      display: block;
+      color: #333;
+      font-size: 18px;
+      line-height: 20px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      margin-bottom: 8px;
+    }
+    span {
+      display: block;
+      color: #999;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}
