@@ -7,3 +7,29 @@
   margin-right:auto;
   min-height:100vh;
 }
+.swiperContainer {
+  position: relative;
+}
+
+a.swiperItem {
+  max-height: 500px;
+  min-height: 160px;
+  width: 100%;
+  display: block;
+  img {
+    display: block;
+    max-height: 500px;
+    min-height: 160px;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+}
+
+:global {
+  .ant-carousel {
+    .slick-slide div {
+      font-size: 0;
+    }
+  }
+}

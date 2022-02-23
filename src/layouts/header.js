@@ -12,7 +12,7 @@ import { history } from 'umi';
 import logoImg from '@/assets/avatar.png';
 const { Search } = Input;
 export default function Header() {
-  const [backColor, setBackColor] = useState('rgba(255,255,255,.14)');
+  const [backColor, setBackColor] = useState('rgba(255,255,255,0)');
   const [inputValue, setInputValue] = useState('');
   const onSearch = (value) => {
     setInputValue(value);
