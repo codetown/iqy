@@ -36,16 +36,16 @@ export default defineConfig({
           title: '首页 - 爱奇艺',
           component: '@/pages/index',
         },
-        // {
-        //   path: '/play',
-        //   title: '播放页 - 爱奇艺',
-        //   component: '@/pages/play',
-        // },
-        // {
-        //   path: '/search',
-        //   title: '搜索页 - 爱奇艺',
-        //   component: '@/pages/search',
-        // },
+        {
+          path: '/play',
+          title: '播放页 - 爱奇艺',
+          component: '@/pages/play',
+        },
+        {
+          path: '/search',
+          title: '搜索页 - 爱奇艺',
+          component: '@/pages/search',
+        },
       ],
     },
   ],
