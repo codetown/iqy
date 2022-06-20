@@ -46,6 +46,10 @@ export default defineConfig({
           title: '搜索页 - 爱奇艺',
           component: '@/pages/search',
         },
+        {
+          title: '404 - 爱奇艺',
+          component: '@/pages/404',
+        },
       ],
     },
   ],
