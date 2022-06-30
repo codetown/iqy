@@ -22,13 +22,13 @@
   "dependencies": {
     "@umijs/preset-react": "2.1.4",
     "@umijs/test": "^3.5.26",
-    "antd": "^4.21.2",
+    "antd": "^4.21.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "umi": "^3.5.26"
   },
   "devDependencies": {
-    "lint-staged": "^13.0.2",
+    "lint-staged": "^13.0.3",
     "prettier": "^2.2.0",
     "yorkie": "^2.0.0"
   }

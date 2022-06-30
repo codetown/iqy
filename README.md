@@ -13,3 +13,9 @@ yarn
 ```bash
 yarn start
 ```
+
+更新依赖包命令
+
+```bash  
+yarn upgrade-interactive --latest
+```
